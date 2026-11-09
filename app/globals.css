@@ -154,3 +154,7 @@
 .footer-brand .footer-brand-text::first-letter{color:inherit}
 .footer-brand .footer-brand-text .brand-k-accent{color:#27d5f5}
 @media(max-width:620px){.footer-brand .footer-brand-text{font-size:32px}}
+
+/* Keep the accent K joined tightly to the rest of the SouKaio wordmark */
+.nav .brand.brand-text{display:block;gap:0;white-space:nowrap;letter-spacing:-.045em}
+.nav .brand.brand-text .brand-k-accent{display:inline;margin:0;padding:0}

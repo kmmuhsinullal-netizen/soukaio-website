@@ -34,3 +34,24 @@
 .origin-feature-bottom>span,.origin-feature-bottom>a{display:flex;align-items:center;gap:8px;font-size:10px}.origin-feature-bottom>span{color:#68778d}.origin-feature-bottom>span svg{color:#087bee}.origin-feature-bottom>a{color:#087bee;font-weight:700}
 @media(max-width:800px){.origin-explorer-grid{grid-template-columns:1fr}.india-map{height:380px}.origin-map-panel{order:2}.origin-detail{order:1}}
 @media(max-width:620px){.origin-explorer-grid{gap:12px}.origin-detail{padding:10px}.origin-region-tabs{gap:7px}.origin-region-tabs button{padding:11px 10px}.origin-region-tabs button span{font-size:12px}.origin-region-tabs button small{font-size:8px}.origin-feature-image{height:210px}.origin-feature-copy{padding:18px 4px 4px}.origin-feature-copy h3{font-size:23px}.origin-feature-copy>p{font-size:11px}.origin-feature-bottom{align-items:flex-start;flex-direction:column}.india-map{height:340px}.origin-map-top{padding:15px}.map-footnote{padding:0 15px 15px}}
+
+/* Accurate India outline treatment and Karnataka coffee-belt detail */
+.india-map{height:420px;padding:8px 35px 34px}
+.india-map svg{width:100%;height:100%}
+.karnataka-inset{border-top:1px solid #e6edf3;padding:17px 18px 12px;background:#fbfdff}
+.inset-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#087bee;font-size:9px;font-weight:700;letter-spacing:.13em}
+.inset-heading span{display:flex;align-items:center;gap:7px}.inset-heading small{font-size:8px;color:#8c9bad;letter-spacing:.1em}
+.karnataka-mini-map{height:180px;max-width:170px;margin:10px auto 13px;position:relative}
+.karnataka-mini-map svg{height:100%;width:100%;overflow:visible}
+.karnataka-pin{position:absolute;transform:translate(-50%,-50%);width:19px;height:19px;border:0;border-radius:50%;background:rgba(8,123,238,.14);display:grid;place-items:center;padding:0;cursor:pointer}
+.karnataka-pin span{display:block;width:7px;height:7px;background:#087bee;border:1px solid #fff;border-radius:50%}
+.karnataka-pin.active{width:27px;height:27px;background:rgba(8,123,238,.22)}.karnataka-pin.active span{width:10px;height:10px;background:#20bce8}
+.inset-location-list{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.inset-location-list button{background:#fff;border:1px solid #e5ebf1;padding:8px 9px;text-align:left;cursor:pointer;min-width:0}
+.inset-location-list button.chosen{background:#edf6ff;border-color:#9bcdf8}
+.inset-location-list button span{display:block;font-size:10px;font-weight:700;color:#1a2d49}
+.inset-location-list button small{display:block;font-size:8px;color:#8492a3;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.selected-location{display:flex;justify-content:space-between;gap:10px;padding:11px 2px 0;color:#087bee;font-size:10px}
+.selected-location span{color:#8190a2}
+@media(max-width:800px){.india-map{height:350px;max-width:350px}.karnataka-inset{padding:15px}.karnataka-mini-map{height:150px}}
+@media(max-width:620px){.india-map{height:310px;padding:8px 45px 30px}.karnataka-inset{padding:13px 12px}.inset-location-list{gap:5px}.inset-location-list button{padding:8px 7px}.inset-location-list button span{font-size:9px}.inset-location-list button small{font-size:7px}.selected-location{font-size:9px}}

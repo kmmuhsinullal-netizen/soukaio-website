@@ -147,3 +147,8 @@
 .nav .brand-text::first-letter{color:#27d5f5}
 @media(max-width:900px){.nav .brand-text{font-size:32px}}
 @media(max-width:620px){.nav .brand-text{font-size:29px}}
+
+/* Footer uses the same simple text identity as the header */
+.footer-brand .footer-brand-text{display:inline-block;font-family:Georgia,'Times New Roman',serif;font-size:38px;font-weight:700;letter-spacing:-.045em;line-height:1;color:#fff;text-decoration:none}
+.footer-brand .footer-brand-text::first-letter{color:#27d5f5}
+@media(max-width:620px){.footer-brand .footer-brand-text{font-size:32px}}

@@ -121,3 +121,14 @@
  .india-map-with-labels .label-tamil{left:43%;top:86%}
  .india-map-with-labels .label-andhra{left:49%;top:68%}
 }
+
+/* Map removed: clean full-width origin showcase */
+.origin-detail-no-map{width:100%;max-width:1120px;margin:30px auto 0;padding:24px;background:#fff;border:1px solid #dfe7f0}
+.origin-detail-no-map .origin-region-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:22px}
+.origin-detail-no-map .origin-feature-image{height:390px}
+.origin-detail-no-map .origin-feature-copy{padding:25px 4px 4px}
+.origin-location-list{margin:20px 0 22px}
+.origin-location-list strong{display:block;font-size:9px;letter-spacing:.13em;color:#087bee;margin-bottom:10px}
+.origin-location-list>div{display:flex;flex-wrap:wrap;gap:8px}
+.origin-location-list span{padding:8px 11px;background:#f5f8fb;border:1px solid #e3eaf1;color:#52647a;font-size:10px}
+@media(max-width:620px){.origin-detail-no-map{padding:12px;margin-top:20px}.origin-detail-no-map .origin-region-tabs{grid-template-columns:1fr 1fr;gap:7px;margin-bottom:13px}.origin-detail-no-map .origin-feature-image{height:230px}.origin-detail-no-map .origin-feature-copy{padding:18px 3px 4px}.origin-location-list span{font-size:9px;padding:7px 8px}}

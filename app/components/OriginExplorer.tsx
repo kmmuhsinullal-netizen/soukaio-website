@@ -4,19 +4,19 @@ import { MapPin, ArrowUpRight, Coffee } from 'lucide-react';
 import Link from 'next/link';
 
 const regions = [
- {name:'Karnataka',area:'Chikkamagaluru · Kodagu · Hassan',note:'India’s leading coffee-producing state, with established Arabica and Robusta estates along the Western Ghats.',varieties:'Arabica · Robusta',image:'photo-1511537190424-bbbab87ac5eb',position:{left:'27%',top:'73%'}},
- {name:'Kerala',area:'Wayanad',note:'A key coffee-growing district in the northern Western Ghats, with a strong Robusta presence and Arabica cultivation.',varieties:'Robusta · Arabica',image:'photo-1495474472287-4d71bcdd2085',position:{left:'28%',top:'82%'}},
- {name:'Tamil Nadu',area:'Nilgiris · Yercaud · Pulneys',note:'Hill-grown coffee from selected estates, with sourcing discussions shaped around buyer grade and cup requirements.',varieties:'Arabica · Robusta',image:'photo-1442512595331-e89e73853f31',position:{left:'31%',top:'84%'}},
- {name:'Andhra Pradesh',area:'Araku Valley',note:'An eastern highland coffee-growing region known for its community-based coffee story and distinctive origin identity.',varieties:'Arabica',image:'photo-1559525839-b184a4d698c7',position:{left:'48%',top:'60%'}}
+ {name:'Karnataka',area:'Chikkamagaluru · Kodagu · Hassan',note:'India’s leading coffee-producing state, with established Arabica and Robusta estates along the Western Ghats.',varieties:'Arabica · Robusta',image:'photo-1511537190424-bbbab87ac5eb',position:{left:'36%',top:'73%'}},
+ {name:'Kerala',area:'Wayanad',note:'A key coffee-growing district in the northern Western Ghats, with a strong Robusta presence and Arabica cultivation.',varieties:'Robusta · Arabica',image:'photo-1495474472287-4d71bcdd2085',position:{left:'35%',top:'83%'}},
+ {name:'Tamil Nadu',area:'Nilgiris · Yercaud · Pulneys',note:'Hill-grown coffee from selected estates, with sourcing discussions shaped around buyer grade and cup requirements.',varieties:'Arabica · Robusta',image:'photo-1442512595331-e89e73853f31',position:{left:'43%',top:'86%'}},
+ {name:'Andhra Pradesh',area:'Araku Valley',note:'An eastern highland coffee-growing region known for its community-based coffee story and distinctive origin identity.',varieties:'Arabica',image:'photo-1559525839-b184a4d698c7',position:{left:'50%',top:'69%'}}
 ];
 const karnatakaPlaces=[
- {name:'Chikkamagaluru',x:27,y:72},
- {name:'Aldur',x:25.5,y:73.5},
- {name:'Mudigere',x:25,y:76},
- {name:'Koppa',x:27.5,y:70.5},
- {name:'Balehonnur',x:28.5,y:72.5},
- {name:'Sakleshpur',x:24,y:79},
- {name:'Kodagu (Coorg)',x:25,y:83}
+ {name:'Chikkamagaluru',x:35,y:72},
+ {name:'Aldur',x:33.5,y:73.5},
+ {name:'Mudigere',x:33,y:76},
+ {name:'Koppa',x:36,y:70.5},
+ {name:'Balehonnur',x:37,y:72.5},
+ {name:'Sakleshpur',x:34,y:79},
+ {name:'Kodagu (Coorg)',x:35,y:82}
 ];
 export default function OriginExplorer(){
  const [active,setActive]=useState(0); const region=regions[active];

@@ -132,3 +132,8 @@
 .origin-location-list>div{display:flex;flex-wrap:wrap;gap:8px}
 .origin-location-list span{padding:8px 11px;background:#f5f8fb;border:1px solid #e3eaf1;color:#52647a;font-size:10px}
 @media(max-width:620px){.origin-detail-no-map{padding:12px;margin-top:20px}.origin-detail-no-map .origin-region-tabs{grid-template-columns:1fr 1fr;gap:7px;margin-bottom:13px}.origin-detail-no-map .origin-feature-image{height:230px}.origin-detail-no-map .origin-feature-copy{padding:18px 3px 4px}.origin-location-list span{font-size:9px;padding:7px 8px}}
+
+/* Simple text wordmark in the main navigation */
+.nav .brand-text{font-family:'Manrope',sans-serif;font-size:27px;font-weight:800;letter-spacing:-.055em;color:#fff;text-transform:none;line-height:1}
+.nav .brand-text::first-letter{color:#27d5f5}
+@media(max-width:620px){.nav .brand-text{font-size:23px}}

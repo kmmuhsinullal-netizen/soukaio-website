@@ -103,3 +103,21 @@
 .origin-single-map-layout .map-footnote{padding:8px 18px 18px}
 @media(max-width:800px){.origin-single-map-layout{grid-template-columns:1fr}.india-map.india-map-with-labels{height:500px;max-width:510px}.label-karnataka{left:17%;top:70%}.label-kerala{left:16%;top:82%}.label-tamil{left:30%;top:84%}.label-andhra{left:41%;top:59%}}
 @media(max-width:620px){.india-map.india-map-with-labels{height:410px;padding:10px 12px}.india-map-with-labels .india-outline-asset{inset:10px 12px 12px;width:calc(100% - 24px);height:calc(100% - 22px)}.map-region-label{font-size:9px}.label-karnataka{left:14%;top:70%}.label-kerala{left:13%;top:82%}.label-tamil{left:28%;top:84%}.label-andhra{left:39%;top:59%}.map-location-key{padding:12px}.map-location-key span{font-size:9px}}
+
+/* Geographic placement correction: labels aligned with their actual states */
+.india-map-with-labels .label-karnataka{left:34%;top:71%;transform:rotate(-12deg)}
+.india-map-with-labels .label-kerala{left:29%;top:82%;transform:rotate(-62deg)}
+.india-map-with-labels .label-tamil{left:43%;top:86%;transform:rotate(-42deg)}
+.india-map-with-labels .label-andhra{left:49%;top:68%;transform:rotate(-18deg)}
+@media(max-width:800px){
+ .india-map-with-labels .label-karnataka{left:34%;top:71%}
+ .india-map-with-labels .label-kerala{left:29%;top:82%}
+ .india-map-with-labels .label-tamil{left:43%;top:86%}
+ .india-map-with-labels .label-andhra{left:49%;top:68%}
+}
+@media(max-width:620px){
+ .india-map-with-labels .label-karnataka{left:34%;top:71%}
+ .india-map-with-labels .label-kerala{left:29%;top:82%}
+ .india-map-with-labels .label-tamil{left:43%;top:86%}
+ .india-map-with-labels .label-andhra{left:49%;top:68%}
+}

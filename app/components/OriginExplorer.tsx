@@ -21,7 +21,7 @@ const karnatakaPlaces=[
 export default function OriginExplorer(){
  const [active,setActive]=useState(0); const region=regions[active];
  return <section id="origins" className="section origin-explorer">
-  <div className="section-head"><div><div className="eyebrow blue">02 / COFFEE ORIGINS</div><h2>India has a story<br/><em>in every coffee region.</em></h2></div><p>Explore India’s coffee-growing regions and the key locations across Karnataka’s Western Ghats coffee belt.</p></div>
+  <div className="section-head"><div><div className="eyebrow blue">02 / COFFEE ORIGINS</div><h2>India has a story<br/><em>in every coffee region.</em></h2></div><p>Explore India’s coffee-growing regions, with Karnataka’s key coffee locations marked directly on the India map.</p></div>
   <div className="origin-explorer-grid origin-single-map-layout">
    <div className="origin-map-panel">
     <div className="origin-map-top"><span><MapPin size={14}/> INDIA / COFFEE ORIGINS</span><small>SELECT A REGION</small></div>

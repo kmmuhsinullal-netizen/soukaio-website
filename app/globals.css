@@ -66,3 +66,20 @@
 .karnataka-mini-map .karnataka-pin{z-index:2}
 @media(max-width:800px){.india-map{height:400px;max-width:360px}.karnataka-mini-map{height:175px}}
 @media(max-width:620px){.india-map{height:340px;max-width:330px;padding:12px 34px 34px}.india-map .india-outline-asset{inset:10px 34px 30px;width:calc(100% - 68px);height:calc(100% - 40px)}.karnataka-mini-map{height:160px}}
+
+/* Clean monochrome map styling */
+.origin-map-panel{background:#fff}
+.india-map{background:#fff}
+.india-map .india-outline-asset{
+  background:#fff;
+  filter:grayscale(1) brightness(1.42) contrast(.62);
+  opacity:.96;
+}
+.karnataka-inset{background:#fff}
+.karnataka-mini-map{background:#fff}
+.karnataka-mini-map .karnataka-outline-asset{
+  background:#fff;
+  filter:grayscale(1) brightness(1.42) contrast(.62);
+  opacity:.96;
+}
+.map-caption{display:none!important}

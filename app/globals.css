@@ -55,3 +55,14 @@
 .selected-location span{color:#8190a2}
 @media(max-width:800px){.india-map{height:350px;max-width:350px}.karnataka-inset{padding:15px}.karnataka-mini-map{height:150px}}
 @media(max-width:620px){.india-map{height:310px;padding:8px 45px 30px}.karnataka-inset{padding:13px 12px}.inset-location-list{gap:5px}.inset-location-list button{padding:8px 7px}.inset-location-list button span{font-size:9px}.inset-location-list button small{font-size:7px}.selected-location{font-size:9px}}
+
+/* Real Wikimedia Commons map artwork: India + Karnataka */
+.india-map{height:490px;max-width:430px;padding:18px 22px 38px}
+.india-map .india-outline-asset{position:absolute;inset:12px 22px 34px;width:calc(100% - 44px);height:calc(100% - 46px);object-fit:contain;object-position:center}
+.india-map .map-pin{z-index:2}
+.india-map .map-caption{z-index:3;background:rgba(255,255,255,.88);padding:7px 9px;border-radius:3px}
+.karnataka-mini-map{height:205px;max-width:150px;margin:10px auto 13px;position:relative}
+.karnataka-mini-map .karnataka-outline-asset{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.karnataka-mini-map .karnataka-pin{z-index:2}
+@media(max-width:800px){.india-map{height:400px;max-width:360px}.karnataka-mini-map{height:175px}}
+@media(max-width:620px){.india-map{height:340px;max-width:330px;padding:12px 34px 34px}.india-map .india-outline-asset{inset:10px 34px 30px;width:calc(100% - 68px);height:calc(100% - 40px)}.karnataka-mini-map{height:160px}}
